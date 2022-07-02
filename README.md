@@ -1,40 +1,52 @@
-print("Welcome to name that show quiz!")
+<h1>Welcome to name that show quiz</h1>
+ 
+ 
 
-playing = input("Do you want to play? ")
+<h2>Description</h2>
+Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<br />
 
-if playing.lower() != "yes":
-    quit()
 
-print("Okay! Let's play :)")
-score = 0
-
-answer = input("Homer Simpson? ")
-if answer.lower() == "the simpsons":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
-
-answer = input("Peter Griffin? ")
-if answer.lower() == "family guy":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
-
-answer = input("Raven Baxter? ")
-if answer.lower() == "thats so raven":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
-
-answer = input("Penny Proud ")
-if answer.lower() == "the proud family":
-    print('Correct!')
-    score += 1
-else:
-    print("Incorrect!")
-
-print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+<h2>Languages and Utilities Used</h2>
+- <b>Python</b> 
+- <b>Shell</b>
+<h2>Environments Used </h2>
+- <b>Windows 10</b> (21H2)
+<h2>Program walk-through:</h2>
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
