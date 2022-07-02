@@ -15,15 +15,15 @@ Project consists of a simple PowerShell script that walks the user through "zero
 <h2>Program walk-through:</h2>
 <p align="center">
 Launch the utility: <br/>
-<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-3.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter Yes or No:  <br/>
-<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-4.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Began Quiz: <br/>
-<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-1.png" " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://tinypic.host/images/2022/07/02/quiz_game-pic-1.png" " height="90%" width="90%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
